@@ -1,0 +1,17 @@
+{"timestamp":"2026-04-28T09:50:04.000200Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-28T09:50:04.001406Z","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.13/site-packages/airflow/example_dags/example_xcom.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-28T09:50:04.150039Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:50:04.152734Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:50:04.153634Z","level":"info","event":"Current task name:bash_pull","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:50:04.154615Z","level":"info","event":"Dag name:example_xcom","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:50:04.150979Z","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook","filename":"subprocess.py","lineno":78}
+{"timestamp":"2026-04-28T09:50:04.151622Z","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'echo \"bash pull demo\" && echo \"The xcom pushed manually is \\'$MANUALLY_PUSHED_VALUE\\'\" && echo \"The returned_value xcom is \\'$RETURNED_VALUE\\'\" && echo \"finished\"']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook","filename":"subprocess.py","lineno":80}
+{"timestamp":"2026-04-28T09:50:04.152523Z","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook","filename":"subprocess.py","lineno":92}
+{"timestamp":"2026-04-28T09:50:04.154109Z","level":"info","event":"bash pull demo","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook","filename":"subprocess.py","lineno":99}
+{"timestamp":"2026-04-28T09:50:04.154203Z","level":"info","event":"The xcom pushed manually is 'manually_pushed_value'","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook","filename":"subprocess.py","lineno":99}
+{"timestamp":"2026-04-28T09:50:04.154234Z","level":"info","event":"The returned_value xcom is 'value_by_return'","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook","filename":"subprocess.py","lineno":99}
+{"timestamp":"2026-04-28T09:50:04.154256Z","level":"info","event":"finished","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook","filename":"subprocess.py","lineno":99}
+{"timestamp":"2026-04-28T09:50:04.154331Z","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook","filename":"subprocess.py","lineno":103}
+{"timestamp":"2026-04-28T09:50:04.191340Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:50:04.197805Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:50:04.198813Z","level":"info","event":"Task operator:<Task(BashOperator): bash_pull>","logger":"task.stdout"}

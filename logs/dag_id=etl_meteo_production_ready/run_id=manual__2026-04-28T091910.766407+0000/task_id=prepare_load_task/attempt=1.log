@@ -1,0 +1,14 @@
+{"timestamp":"2026-04-28T09:19:14.454163Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-28T09:19:14.457163Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/meteo_dag.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-28T09:19:14.496612Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.499230Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.500606Z","level":"info","event":"Current task name:prepare_load_task","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.505341Z","level":"info","event":"Dag name:etl_meteo_production_ready","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.524161Z","level":"info","event":"--- PRÉPARATION DE L'INSERTION (3 villes) ---","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.526492Z","level":"info","event":"DONNÉES CIBLES : {'city_id': 'lyon', 'temp_celsius': 17.9, 'ingestion_date': '2026-04-28 09:19:13', 'wind_speed_kmh': 5.2, 'observation_timestamp': '2026-04-28T09:15', 'weather_condition_code': 3}","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.527828Z","level":"info","event":"DONNÉES CIBLES : {'city_id': 'paris', 'temp_celsius': 14.0, 'ingestion_date': '2026-04-28 09:19:13', 'wind_speed_kmh': 12.1, 'observation_timestamp': '2026-04-28T09:15', 'weather_condition_code': 3}","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.528161Z","level":"info","event":"DONNÉES CIBLES : {'city_id': 'marseille', 'temp_celsius': 18.6, 'ingestion_date': '2026-04-28 09:19:13', 'wind_speed_kmh': 7.6, 'observation_timestamp': '2026-04-28T09:15', 'weather_condition_code': 3}","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.523635Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-04-28T09:19:14.555923Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.561242Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-28T09:19:14.563261Z","level":"info","event":"Task operator:<Task(PythonOperator): prepare_load_task>","logger":"task.stdout"}

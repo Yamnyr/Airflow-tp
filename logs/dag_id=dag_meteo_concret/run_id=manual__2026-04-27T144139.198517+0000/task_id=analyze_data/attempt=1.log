@@ -1,0 +1,15 @@
+{"timestamp":"2026-04-27T14:41:44.573335Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-27T14:41:44.593509Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/meteo_dag.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-27T14:41:44.692024Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"UserWarning","filename":"/opt/airflow/dags/meteo_dag.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-04-27T14:41:44.708100Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.708593Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.709016Z","level":"info","event":"Current task name:analyze_data","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.709491Z","level":"info","event":"Dag name:dag_meteo_concret","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.729116Z","level":"info","event":"--- RAPPORT MÉTÉO PARIS ---","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.729894Z","level":"info","event":"Température : 22.3°C","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.730678Z","level":"info","event":"Vitesse du vent : 8.3 km/h","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.731266Z","level":"info","event":"Verdict : Il fait bon, profitez du soleil !","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.729085Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-04-27T14:41:44.755336Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.757718Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-27T14:41:44.758526Z","level":"info","event":"Task operator:<Task(PythonOperator): analyze_data>","logger":"task.stdout"}
